@@ -35,3 +35,8 @@ TCP
 I already have a basic PoC that inject an eBPF program into the global cgroup and replace a connection destination IP with another from a hashmap controlled by a Go program using cgroup/connects hook.
 I would like during the Hackathon to work on making this into a Consul in Kubernetes PoC as described above.
 
+## Documentation
+
+Documentation is in [here](docs/eBPF_solution.md)
+
+
